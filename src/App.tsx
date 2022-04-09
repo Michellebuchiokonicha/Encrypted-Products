@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Features from './components/Features';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import {ChakraProvider, Container, Box } from '@chakra-ui/react'
+
+import theme from './components/theme'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <ChakraProvider theme={theme}> 
+      <Container maxW={[ "full", "full"]} p={0}>
+        <Router>
+          <Nav />
+          <Box>
+            <Routes>
+              <Route path='/' element={<Features />} />
+            </Routes>
+          </Box>
+          <Footer />
+        </Router>
+      </Container>
+    </ChakraProvider>
     </div>
   );
 }

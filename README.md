@@ -1,3 +1,9 @@
+# Encrypto
+
+This is a blockchain application that provides blockchain services from crypto to token to templates to be used. cryptocurrency transactions can be carried out here as well as feedback on the application
+
+Technologies used majorly include React.js and Typescript
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
