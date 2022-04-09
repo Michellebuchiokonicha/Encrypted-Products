@@ -1,4 +1,4 @@
-# Encrypto
+# Encrypted
 
 This is a blockchain application that provides blockchain services from crypto to token to templates to be used. cryptocurrency transactions can be carried out here as well as feedback on the application
 
