@@ -22,13 +22,13 @@ function Features() {
   return (
 
     <div className='div'>
-      <Box position='absolute'  bottom='2820px'>
+      <Box position='absolute'  bottom='2992px'>
             <Image src={union} alt='union'/>
           </Box>
-          <Box position='absolute'  bottom='2720px'>
+          <Box position='absolute'  bottom='2890px'>
             <Image src={union2} alt='union2'/>
           </Box>
-          <Box position='absolute'  bottom='1970px'>
+          <Box position='absolute'  bottom='2010px'>
             <Image src={union3} alt='union3'/>
           </Box>
           <Box position='absolute'  bottom='1010px'>
